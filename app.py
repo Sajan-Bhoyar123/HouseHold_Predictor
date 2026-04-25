@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-app = Flask(__name__)
+app= Flask(__name__)
 
 ridge_trail_model = pickle.load(open("models/ridge.pkl","rb"))
 scaler = pickle.load(open("models/scaler.pkl","rb"))
